@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "set NODE_ENV=production&& node ./src/main.js",
+    "start": "node ./src/main.js",
     "dev": "set NODE_ENV=development&& nodemon ./src/main.js",
     "test": "jest --watchAll --no-cache"
   },
